@@ -13,17 +13,17 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
   tripguide,
-  threejs,
 } from "../assets";
+
+import pinfinity from "../assets/projects/pinfinity.png";
+import ai_art from "../assets/projects/ai-art.png";
+import library from "../assets/projects/library.png";
+import chat from "../assets/projects/chat.png";
 
 export const navLinks = [
   {
@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Problem Solver",
     icon: creator,
   },
 ];
@@ -97,20 +97,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -171,94 +159,140 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "Good knowledge of Stylings and Logical Programming",
+    name: "Baljeet Singh",
+    designation: "Professor",
+    company: "Chitkara University",
+    image:
+      "https://images.pexels.com/photos/12824199/pexels-photo-12824199.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "Good knowledge of Problem solving skills",
+    name: "Manirup Manna",
+    designation: "Friend",
+    company: "Chitkara University",
+    image:
+      "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pinfinity",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to easily share, organize, and discover photos with their friends and followers. Implemented key features such as upload, comments ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Sanity_Client",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Google_API",
+        color: "red-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pinfinity,
+    source_code_link: "https://github.com/gopal24-colab/Pinfinity",
   },
   {
-    name: "Job IT",
+    name: "AI Art Gallery",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The AI Art Gallery project is a web application that leverages the power of artificial intelligence to create and showcase unique pieces of artwork.Using user prompts create new artwork using Open AI",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Open AI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Node JS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ai_art,
+    source_code_link: "https://github.com/gopal24-colab/ai-art-gallery",
   },
   {
-    name: "Trip Guide",
+    name: "Swift Mart - A Ecommerce Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive Ecommerce platform that allows users to add items in cart, order, and rate the items.",
     tags: [
       {
-        name: "nextjs",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Redux Toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gopal24-colab/Swift-Market",
+  },
+  {
+    name: "Chat Hub - A simple real time Chat application",
+    description:
+      "User can chat with single user And can create a group chat to talk with group members",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Chakra UI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chat,
+    source_code_link: "https://github.com/gopal24-colab/ChatHub",
+  },
+  {
+    name: "Library Mangement Application",
+    description:
+      "A simple library management application where user can borrow books and return books featured",
+    tags: [
+      {
+        name: "Node JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "EJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: library,
+    source_code_link: "https://github.com/gopal24-colab/Library-Management",
   },
 ];
 

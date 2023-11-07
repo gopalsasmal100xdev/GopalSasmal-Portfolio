@@ -160,7 +160,7 @@ const testimonials = [
     designation: "Professor",
     company: "Chitkara University",
     image:
-      "https://images.pexels.com/photos/12824199/pexels-photo-12824199.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.unsplash.com/photo-1546587348-d12660c30c50?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     testimonial: "Good knowledge of Problem solving skills",
@@ -220,7 +220,7 @@ const projects = [
     source_code_link: "https://github.com/gopal24-colab/ai-art-gallery",
   },
   {
-    name: "Swift Mart - A Ecommerce Website",
+    name: "E-SHop - A Ecommerce Website",
     description:
       "A comprehensive Ecommerce platform that allows users to add items in cart, order, and rate the items.",
     tags: [
